@@ -33,8 +33,11 @@ app.get('/banana', (request, response)=>{
 app.get('/react', (req, res) => {
   const myHtml = `
     <html>
+        <head>
+            <link href="style.css" rel="stylesheet" type="text/css" />
+        </head>
       <body>
-        <h1>Wow, react</h1>
+        <h1>Tweet React</h1>
         <div id="app"></div>
         <script type="text/javascript" src="/main.js"></script>
       </body>
