@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: text-top;
+    padding: 10px;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
